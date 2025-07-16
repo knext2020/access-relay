@@ -25,12 +25,12 @@ function App() {
         window.focus();
         setTimeout(() => {
           win.close();
-        }, 3000);
+        }, 90000);
       }
 
       index = (index + 1) % urls.length;
       setCount((prev) => prev + 1);
-    }, 5000);
+    }, 90000);
 
     return () => clearInterval(interval);
   }, []);
@@ -49,7 +49,7 @@ function App() {
       label: 'おいしいはなし北堀江ß店（Googleマップ）',
     },
      {
-      src: 'https://i.imgur.com/XWRQNtK.jpeg',
+      src: 'https://i.imgur.com/07UV7Cz.jpeg',
       label: 'K-NEXT株式会社',
     }
   ];
