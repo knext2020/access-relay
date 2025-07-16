@@ -56,9 +56,9 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', padding: '30px' }}>
-      <h1 style={{ fontSize: '2.8rem', color: '#1e293b' }}>🚀 アクセスリレー稼働中 🚀</h1>
+      <h1 style={{ fontSize: '2.8rem', color: '#1e293b' }}>🚀 K-NEXT Access relay🚀</h1>
 
-      <h2 style={{ marginTop: '20px', fontSize: '1.6rem' }}>現在アクセス中のURL：</h2>
+      <h2 style={{ marginTop: '20px', fontSize: '1.6rem' }}>現在アクセス中のサイトURL：</h2>
       <a
         href={currentUrl}
         target="_blank"
