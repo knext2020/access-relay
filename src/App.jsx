@@ -49,7 +49,7 @@ function App() {
       label: 'おいしいはなし北堀江ß店（Googleマップ）',
     },
      {
-      src: '[img]https://i.imgur.com/eQ5ZiZi.jpeg',
+      src: 'https://i.imgur.com/XWRQNtK.jpeg',
       label: 'K-NEXT株式会社',
     }
   ];
