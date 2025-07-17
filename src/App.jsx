@@ -6,7 +6,7 @@ function App() {
     'https://tabelog.com/ishikawa/A1701/A170101/17101269/',
     'https://maps.app.goo.gl/gjNoi7BYbGv3vdDa6',
     'http://knext2020.com',
-    'https://example.com/sample2'
+    'https://www.tiktok.com/@ihavegout_butilikebeer/video/7527520777164590344'
   ];
 
   const [count, setCount] = useState(0);
@@ -46,11 +46,15 @@ function App() {
     },
     {
       src: 'https://i.imgur.com/RTWyre1.jpg',
-      label: 'おいしいはなし北堀江ß店（Googleマップ）',
+      label: 'おいしいはなし北堀江B店（Googleマップ）',
     },
-     {
+    {
       src: 'https://i.imgur.com/07UV7Cz.jpeg',
       label: 'K-NEXT株式会社',
+    },
+    {
+      src: 'https://i.imgur.com/YOURLINK.jpg',  // ← TikTok画像用に差し替えてね！
+      label: 'K-NEXT TikTok',
     }
   ];
 
