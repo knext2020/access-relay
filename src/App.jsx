@@ -3,9 +3,19 @@ import { useEffect, useState } from 'react';
 function App() {
   const urls = [
     'https://tabelog.com/osaka/A2701/A270201/27145904/',
-    'https://tabelog.com/ishikawa/A1701/A170101/17101269/',
+    'https://tabelog.com/ishikawa/A1701/A170101/17012689/dtlrvwlst/',
     'https://maps.app.goo.gl/gjNoi7BYbGv3vdDa6',
     'http://knext2020.com',
+    'https://www.instagram.com/oishii.hanashi_horie/?locale=ja_JP',
+    'https://maps.app.goo.gl/6mP1ie1F5FjCwoEE7',
+    'https://share.google/bgR4FDtszn3HPblBd',
+    'https://share.google/VqAtEL444uHFwP5z6',
+    'https://share.google/uIU38H6fc7mz77DQY',
+    'https://share.google/kfqQwACY6uq8oy1Ab',
+    'https://share.google/rusjj6sxvh1HBj1P2',
+    'https://share.google/0pjKrMTxr1YJcHvfd',
+    'https://share.google/Si2vqbpHp5i0xZhq8',
+    'https://share.google/qTta2HLdOV0sRuovf',
     'https://www.tiktok.com/@ihavegout_butilikebeer/video/7527520777164590344'
   ];
 
@@ -51,6 +61,26 @@ function App() {
     {
       src: 'https://i.imgur.com/07UV7Cz.jpeg',
       label: 'K-NEXT株式会社',
+    },
+    {
+      src: 'https://i.imgur.com/zYVUy1s.png',
+      label: 'Cucina cucina',
+    },
+    {
+      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      label: 'イタメシやSUGU',
+    },
+    {
+      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      label: '焼肉大伍',
+    },
+    {
+      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      label: '心斎橋tres',
+    },
+    {
+      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      label: '北新地AVAN',
     },
     {
       src: 'https://i.imgur.com/YOURLINK.jpg',  // ← TikTok画像用に差し替えてね！
