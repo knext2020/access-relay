@@ -16,6 +16,13 @@ function App() {
     'https://share.google/0pjKrMTxr1YJcHvfd',
     'https://share.google/Si2vqbpHp5i0xZhq8',
     'https://share.google/qTta2HLdOV0sRuovf',
+    'https://share.google/O99K0YqTnsxIsiPbq',
+    'https://share.google/YNwe7mJPJUf575pF5',
+    'https://share.google/mrjtWOYElPLNevQke',
+    'https://share.google/GQWAm2HpInYwvpF80',
+    'https://tabelog.com/ishikawa/A1701/A170101/17012689/',
+    'https://fanmake-chat.com',
+    'https://wintermediation.wordpress.com',
     'https://www.tiktok.com/@ihavegout_butilikebeer/video/7527520777164590344'
   ];
 
@@ -35,12 +42,12 @@ function App() {
         window.focus();
         setTimeout(() => {
           win.close();
-        }, 90000);
+        },60000);
       }
 
       index = (index + 1) % urls.length;
       setCount((prev) => prev + 1);
-    }, 90000);
+    }, 60000);
 
     return () => clearInterval(interval);
   }, []);
@@ -67,24 +74,48 @@ function App() {
       label: 'Cucina cucina',
     },
     {
-      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      src: 'https://i.imgur.com/Emjq1TA.png',
       label: 'イタメシやSUGU',
     },
     {
-      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      src: 'https://i.imgur.com/HIOkv0Q.png',
       label: '焼肉大伍',
     },
     {
-      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      src: 'https://i.imgur.com/WYIYMA5.png',
       label: '心斎橋tres',
     },
     {
-      src: 'https://i.imgur.com/07UV7Cz.jpeg',
+      src: 'https://i.imgur.com/Wjs159c.png',
       label: '北新地AVAN',
     },
     {
-      src: 'https://i.imgur.com/YOURLINK.jpg',  // ← TikTok画像用に差し替えてね！
-      label: 'K-NEXT TikTok',
+      src: 'https://i.imgur.com/k7FJxiO.png', 
+      label: 'ウルティマチェーナ 心斎橋店',
+    },
+    {
+      src: 'https://i.imgur.com/r4rVMXr.png', 
+      label: '大阪とんかつ 道頓堀本店',
+    },
+    {
+      src: 'https://i.imgur.com/2fAQVNu.png', 
+      label: '大阪とんかつ」中崎 茶屋町 梅田店',
+    },
+    {
+      src: 'https://i.imgur.com/N2uZ95n.png', 
+      label: '本店道頓堀 大阪とんかつ(旧店名ちよ松) 阿倍野Hoop店k',
+    },
+    {
+      src: 'https://i.imgur.com/pjg1gge.jpeg', 
+      label: 'ケムリとカオリ食べログ',
+    },
+    {
+      src: 'https://i.imgur.com/F0A8GB6.jpeg', 
+      label: 'FANMAKE',
+    },
+    {
+      src: 'https://i.imgur.com/b4DShgl.jpeg', 
+      label: 'W iNTERMEDIATION,LLC',
     }
   ];
 
